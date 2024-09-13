@@ -52,20 +52,28 @@ h2 {
 
 .report-container {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    flex-direction: column; /* Stack reports vertically on smaller screens */
+    align-items: center; /* Center reports horizontally */
     gap: 20px;
 }
 
 .report-frame {
     border: 2px solid #00274D; /* Power BI Dark Blue border */
     border-radius: 8px; /* Optional: rounded corners for the border */
-    width: 80%;
-    height: 600px;
+    width: 100%; /* Full width on mobile */
+    max-width: 80%; /* Ensure it doesn't exceed the container's width */
+    height: 400px; /* Adjust height for better mobile view */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
 
 .report-frame:hover {
     transform: scale(1.05);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .report-frame {
+        height: 300px; /* Adjust height for smaller screens */
+    }
 }
