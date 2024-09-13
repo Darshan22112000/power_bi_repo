@@ -1,0 +1,71 @@
+/* Banner Section */
+.banner-section {
+    background-color: #F2C300; /* Power BI Primary Yellow */
+    color: #1E1E1E; /* Power BI Primary Black */
+    text-align: center;
+    padding: 20px;
+    /* margin-bottom: 20px; */
+}
+
+.banner-content {
+    display: block;
+    max-width: 1000px; /* Adjust the max width as needed */
+    margin: 0 auto; /* Center the content */
+    padding: 20px; /* Add padding around the content */
+    background-color: rgba(255, 255, 255, 0.9); /* Optional: Add a semi-transparent background for better readability */
+    border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+.banner-content h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.banner-content p {
+    margin: 10px 0 0;
+    font-size: 1.2rem;
+}
+
+/* Optional: add responsiveness */
+@media (max-width: 768px) {
+    .banner-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .banner-content p {
+        font-size: 1rem;
+    }
+}
+
+/* Report Section */
+.report-section {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #FFFFFF; /* White background */
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #00274D; /* Power BI Dark Blue */
+}
+
+.report-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.report-frame {
+    border: 2px solid #00274D; /* Power BI Dark Blue border */
+    border-radius: 8px; /* Optional: rounded corners for the border */
+    width: 80%;
+    height: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.report-frame:hover {
+    transform: scale(1.05);
+}
