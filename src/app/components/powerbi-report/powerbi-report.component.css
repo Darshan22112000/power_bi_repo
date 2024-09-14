@@ -60,9 +60,9 @@ h2 {
 .report-frame {
     border: 2px solid #00274D; /* Power BI Dark Blue border */
     border-radius: 8px; /* Optional: rounded corners for the border */
-    width: 100%; /* Full width on mobile */
+    width: 100%; 
     max-width: 80%; /* Ensure it doesn't exceed the container's width */
-    height: 400px; /* Adjust height for better mobile view */
+    height: 75vh; /* Adjust height for better mobile view */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
