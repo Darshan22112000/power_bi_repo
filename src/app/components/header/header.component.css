@@ -3,7 +3,7 @@
     padding: 5px;
     position: sticky;
     top: 0; /* Stick the header to the top of the viewport */
-    width: 100%; /* Ensure the header takes up the full width of the page */
+    width: 99.35%; /* Ensure the header takes up the full width of the page */
     z-index: 1000; /* Ensure the header stays above other content */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: add a shadow for visual separation */
 }
