@@ -40,7 +40,7 @@
 /* Report Section */
 .report-section {
     text-align: center;
-    padding: 40px 0;
+    padding: 20px 0;
     background-color: #FFFFFF; /* White background */
 }
 
@@ -54,7 +54,7 @@ h2 {
     display: flex;
     flex-direction: column; /* Stack reports vertically on smaller screens */
     align-items: center; /* Center reports horizontally */
-    gap: 20px;
+    gap: 40px;
 }
 
 .report-frame {
