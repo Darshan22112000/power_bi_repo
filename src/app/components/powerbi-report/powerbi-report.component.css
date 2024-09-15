@@ -62,7 +62,7 @@ h2 {
     border-radius: 8px; /* Optional: rounded corners for the border */
     width: 100%; 
     max-width: 80%; /* Ensure it doesn't exceed the container's width */
-    height: 75vh; /* Adjust height for better mobile view */
+    height: 80vh; /* Adjust height for better mobile view */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
